@@ -8,6 +8,12 @@ This Ansible role installs and configures Snell proxy server on Linux systems.
 - A supported Linux distribution (with systemd)
 - Supported architectures: amd64, i386, aarch64, armv7l
 
+## Installation
+
+```bash
+ansible-galaxy install git+https://github.com/broven/ansible-role-snell.git
+```
+
 ## Role Variables
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
