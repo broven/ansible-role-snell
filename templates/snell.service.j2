@@ -1,0 +1,12 @@
+[Unit]
+Description=Snell Proxy Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart={{ snell_install_dir }}/snell-server -c /etc/snell-server.conf
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target 

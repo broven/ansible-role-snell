@@ -1,0 +1,6 @@
+---
+- name: restart snell
+  systemd:
+    name: snell
+    state: restarted
+    daemon_reload: yes 

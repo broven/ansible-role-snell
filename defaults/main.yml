@@ -1,0 +1,10 @@
+---
+# Snell version
+snell_version: "v4.1.1"
+
+# Installation directory
+snell_install_dir: "/usr/local/bin"
+
+# Service configuration
+snell_port: 39925
+snell_psk: "test_psk_please_change"  # Please change this in your playbook 
